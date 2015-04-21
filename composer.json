@@ -1,0 +1,20 @@
+{
+    "name": "dahc14/cpiglatin",    
+    "type": "library",
+    "description": "Classes for pig latin",
+    "keywords": ["pig", "latin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Henrysson",
+            "email": "dahc14@student.bth.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Dahc14\\": "src/" }
+    }
+}
