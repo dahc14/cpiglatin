@@ -3,12 +3,14 @@
 	
 	class PigLatinTest extends \PHPUnit_Framework_TestCase {
 		public function testGetName() {
-			$pigLatin = new \Dahc14\PigLatin\word2PigLatin();
+			$pigLatin = new \Dahc14\PigLatin\CPigLatin();
 			
 			$expect = "anielDay";
 			$word = "Daniel";
 			
-			$this->assertEquals($word, $expect, "The translation is not correct.");
+			$result = $pigLatin->word2PigLatin($word);
+			
+			$this->assertEquals($result, $expect, "The translation is not correct.");
 		}
 	}
 ?>
