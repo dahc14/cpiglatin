@@ -1,4 +1,8 @@
 CPigLatin is a PHP class for transforming words into pig latin words.
+
+För att installera paketet så behöver du uppdatera sin composer.json fil med den här raden: "dahc14/cpiglatin": "dev-master"
+
+Inget annat behövs göras. För att testa paketet kan du använda dig utav test-filen som ligger i webroot, annars kan du skriva en router som använder sig utav paketet. Jag har gjort ett exempel på min my-page.
 ==================================
 
 By Daniel Henrysson (dahc14@student.bth.se)
